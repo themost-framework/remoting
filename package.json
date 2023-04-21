@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Remoting services for @themost-framework base on gRPC",
   "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "nyc jasmine",
     "build": "rimraf dist && rollup -c rollup.config.js"
