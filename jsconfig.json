@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "experimentalDecorators": true,
+        "paths": {
+            "@themost/remoting/platform-server": [
+                "platform-server/src/index"
+            ],
+            "@themost/remoting": [
+                "src/index"
+            ]
+        }
+    }
+}

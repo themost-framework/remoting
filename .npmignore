@@ -31,5 +31,8 @@ rollup.config.js
 # typescript
 tsconfig.json
 
+# javascript
+jsconfig.json
+
 # gitpod
 .gitpod.yml
