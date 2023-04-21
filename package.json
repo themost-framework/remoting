@@ -1,0 +1,59 @@
+{
+  "name": "@themost/remoting",
+  "version": "1.0.0",
+  "description": "Remoting services for @themost-framework base on gRPC",
+  "main": "dist/index.cjs.js",
+  "scripts": {
+    "test": "nyc jasmine",
+    "build": "rimraf dist && rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themost-framework/remoting.git"
+  },
+  "bugs": {
+    "url": "https://github.com/themost-framework/remoting/issues"
+  },
+  "homepage": "https://github.com/themost-framework/remoting#readme",
+  "keywords": [
+    "gRPC",
+    "service",
+    "remote",
+    "remoting",
+    "api"
+  ],
+  "author": "",
+  "license": "BSD-3-Clause",
+  "peerDependencies": {
+    "@themost/common": "^2",
+    "@themost/data": "^2",
+    "@themost/query": "^2",
+    "@themost/xml": "^2"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.8.14",
+    "@grpc/proto-loader": "^0.7.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.18.9",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@themost/peers": "^1.0.2",
+    "@types/jasmine": "^3.5.14",
+    "@types/node": "^17.0.23",
+    "@types/sprintf-js": "^1.1.2",
+    "dotenv": "^8.2.0",
+    "eslint": "^8.12.0",
+    "jasmine": "^3.6.1",
+    "jasmine-spec-reporter": "^5.0.2",
+    "module-alias": "^2.2.2",
+    "nyc": "^15.1.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.70.1",
+    "rollup-plugin-dts": "^4.2.0",
+    "sql.js": "^1.3.0",
+    "typescript": "^4.6.3"
+  }
+}
